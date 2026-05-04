@@ -1,6 +1,6 @@
 This is my react sdk to use this is 
 1 npm install autobot-react-sdk
-and this is the sample component of react :-read
+This is the sample component of react compnent
 import ChatWidget from "autobot-react-sdk";
 
 function App() {

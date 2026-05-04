@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
+
   "scripts": {
-    "build": "tsup src/index.jsx --format cjs,esm"
+    "build": "npx tsup src/index.jsx --format cjs,esm"
   },
+
+  "engines": {
+    "node": "18.x"
+  },
+
   "peerDependencies": {
     "react": "^18.0.0"
   },
+
   "dependencies": {
     "socket.io-client": "^4.8.1"
   },
+
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^6.0.3"
